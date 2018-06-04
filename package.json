@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --mode development ./app.js --output app.bundle.js",
-    "build": "webpack --mode production"
+    "build": "webpack --env production"
   },
   "author": "",
   "license": "ISC",
